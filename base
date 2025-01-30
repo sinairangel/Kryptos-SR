@@ -1,0 +1,17 @@
+kryptos-k4-solver/
+├── README.md               # Project overview, goals, and background
+├── docs/
+│   ├── theories.md         # Document hypotheses and approaches
+│   └── references.md       # Links to research papers, articles, and tools
+├── data/
+│   ├── k4_ciphertext.txt   # Raw K4 ciphertext
+│   └── plaintext_hints.txt # Known hints (BERLIN, CLOCK, EASTNORTHEAST)
+├── src/
+│   ├── frequency_analysis.py   # Letter frequency tools
+│   ├── vigenere_solver.py      # Vigenère cipher attacks
+│   ├── transposition_tools.py  # Grid/columnar transposition helpers
+│   ├── polybius_square.py      # Polybius square experiments
+│   └── visualization.py        # Plot patterns or grids
+├── tests/                  # Unit tests for decryption methods
+├── results/                # Logs of partial decryptions and insights
+└── CONTRIBUTING.md         # Guidelines for collaborators
